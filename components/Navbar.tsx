@@ -33,54 +33,15 @@ const Navbar = () => {
             <span className="text-2xl font-semibold">simple</span>
           </Link>
           <div className="flex gap-1 sm:gap-4 items-center">
-            {!isUserSignedIn ? (
-              <MobileNav />
-            ) : (
-              <Link
-                className={buttonVariants({
-                  size: "sm",
-                  className: "sm:hidden mr-3",
-                })}
-                href="/dashboard"
-              >
-                Dashboard
-              </Link>
-            )}
-
-            <div className="hidden items-center space-x-4 sm:flex">
-              {!isUserSignedIn ? (
-                <>
-  
-                  <Link
-                    className={buttonVariants({
-                      size: "sm",
-                      variant: "ghost",
-                      
-                    })}
-                    
-                    href="https://github.com/wolfgunblood/simpleboilerplate"
-                  >
-                   Github
-                  </Link>
-                </>
-              ) : (
-                <>
-                  <Link
-                    className={buttonVariants({
-                      size: "sm",
-                    })}
-                    href="/dashboard"
-                  >
-                    Dashboard
-                  </Link>
-                </>
-              )}
-            </div>
-
-            {/* User profile mockup below, e.g using Clerk: <UserButton afterSignOutUrl="/" /> */}
-            {isUserSignedIn && (
-              <div className="bg-emerald-600 border-2 border-black shadow-lg rounded-full w-10 h-10"></div>
-            )}
+            <Link
+              className={buttonVariants({
+                size: "sm",
+                variant: "ghost",
+              })}
+              href="https://github.com/wolfgunblood/simpleboilerplate"
+            >
+              Github
+            </Link>
           </div>
         </div>
       </div>

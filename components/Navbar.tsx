@@ -54,7 +54,10 @@ const Navbar = () => {
                   <Link
                     className={buttonVariants({
                       size: "sm",
+                      variant: "ghost",
+                      
                     })}
+                    
                     href="https://github.com/wolfgunblood/simpleboilerplate"
                   >
                    Github

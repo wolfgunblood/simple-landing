@@ -4,7 +4,7 @@ import { ChevronRight } from "lucide-react";
 
 export async function AnimatedGradient() {
   return (
-    <div className="z-10 flex min-h-[16rem] items-center justify-center">
+    <div className="z-10 flex min-h-[5rem] items-center justify-center">
       <AnimatedGradientText>
         🎉 <hr className="mx-2 h-4 w-[1px] shrink-0 bg-gray-300" />{" "}
         <span

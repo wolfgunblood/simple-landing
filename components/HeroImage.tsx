@@ -15,10 +15,16 @@ const HeroImage = () => {
             </span>
           </div>
           <div className="font-mono text-gray-500 [&_span]:opacity-0">
-            <span className="block sm:inline animate-[code-1_10s_infinite] text-gray-200">
+            <span className="animate-[code-1_10s_infinite] text-gray-200">
               git clone
             </span>
-            <span className="block sm:inline animate-[code-2_10s_infinite]">
+            {" "}
+            <span className="animate-[code-2_10s_infinite]">
+            </span>
+            <span
+              className="animate-[code-2_10s_infinite]"
+              style={{ whiteSpace: "pre-wrap", wordWrap: "break-word" }}
+            >
               https://github.com/wolfgunblood/simpleboilerplate.git
             </span>
 

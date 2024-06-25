@@ -63,6 +63,9 @@
       --border: 217.2 32.6% 17.5%;
       --input: 217.2 32.6% 17.5%;
       --ring: 212.7 26.8% 83.9%;
+      --scrollbar-track-color: #333;
+      --scrollbar-thumb-color: #aaa;
+      --scrollbar-thumb-hover-color: #777;
     }
   }
 
@@ -74,3 +77,24 @@
       @apply bg-background text-foreground;
     }
   }
+
+  
+  /* Custom Scrollbar Styles */
+::-webkit-scrollbar {
+  width: 12px; /* Width of the entire scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: var(--scrollbar-track-color); /* Color of the tracking area */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--scrollbar-thumb-color); /* Color of the scroll thumb */
+  border-radius: 6px; /* Roundness of the scroll thumb */
+  border: 3px solid var(--scrollbar-track-color); /* Adjust border color as needed or use variable */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--scrollbar-thumb-hover-color); /* Color of the scroll thumb when hovered */
+}
+

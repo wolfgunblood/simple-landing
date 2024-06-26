@@ -14,15 +14,15 @@ const HeroImage = () => {
               saaskit.one
             </span>
           </div>
-          <div className="font-mono text-gray-500 [&_span]:opacity-0">
-            <span className="animate-[code-1_10s_infinite] text-gray-200">
+          <div className="font-mono text-gray-200 [&_span]:opacity-0">
+            <span className="animate-[code-1_10s_infinite] ">
               git clone
             </span>
             {" "}
-            <span className="animate-[code-2_10s_infinite]">
+            <span className="animate-[code-2_10s_infinite] ">
             </span>
             <span
-              className="animate-[code-2_10s_infinite]"
+              className="animate-[code-2_10s_infinite] text-gray-500"
               style={{ whiteSpace: "pre-wrap", wordWrap: "break-word" }}
             >
              https://github.com/wolfgunblood/nextjs-saaskit
@@ -38,7 +38,7 @@ const HeroImage = () => {
             </span>
             <br />
             <br />
-            <span className="animate-[code-5_10s_infinite] text-gray-200">
+            <span className="animate-[code-5_10s_infinite] ">
               npm install
             </span>
             <br />
@@ -46,7 +46,7 @@ const HeroImage = () => {
               npm run dev
             </span>
             <br />
-            <span className="animate-[code-6_10s_infinite]">
+            <span className="animate-[code-6_10s_infinite] text-gray-500">
               Start Shipping  🎉  🎉
             </span>
           </div>

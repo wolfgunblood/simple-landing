@@ -23,7 +23,7 @@ export function UserAccountNav() {
   const user = app.useUser();
 
   const defaultImageUrl =
-    "https://avatars.dicebear.com/api/avataaars/avatar1.svg"; // Update this path to your default image
+    "https://api.dicebear.com/9.x/pixel-art/svg"; // Update this path to your default image
 
   return (
     <DropdownMenu>

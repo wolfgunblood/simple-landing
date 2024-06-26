@@ -22,8 +22,8 @@ const Hero = () => {
         tailwindcss and shadcn-ui{" "}
       </p>
 
-      <div className="mb-10">
-            <div className="mx-auto max-w-[430px]">
+      <div className="my-10">
+            <div className="mx-auto max-w-fit">
               <CopyToClipboard text={"git clone " + githubUrl} />
             </div>
           </div>

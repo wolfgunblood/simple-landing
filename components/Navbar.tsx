@@ -5,11 +5,13 @@ import { cn } from "@/lib/utils";
 
 import { buttonVariants } from "@/components/ui/button";
 import { MobileNav } from "@/components/MobileNav";
+import { useStackApp } from "@stackframe/stack";
+import { UserAccountNav } from "./useAccountNav";
 
 const Navbar = () => {
   // Replace with your auth of choice, e.g. Clerk: const { userId } = auth();
-  const isUserSignedIn = false;
-
+  const app = useStackApp();
+  const user = app.useUser();
   return (
     <nav
       className={cn(
@@ -33,15 +35,31 @@ const Navbar = () => {
             {/* <span className="text-2xl font-semibold">simple</span> */}
           </Link>
           <div className="flex gap-1 sm:gap-4 items-center">
-            <Link
-              className={buttonVariants({
-                size: "sm",
-                variant: "ghost",
-              })}
-              href="https://github.com/wolfgunblood/nextjs-saaskit"
-            >
-              Github
-            </Link>
+          {!user && (
+                <>
+                 
+                  <Link
+                    className={buttonVariants({
+                      variant: "ghost",
+                      size: "sm",
+                    })}
+                    href="/handler/signin"
+                  >
+                    Sign in
+                  </Link>
+                  <Link
+                    className={buttonVariants({
+                      size: "sm",
+                    })}
+                    href="/handler/signup"
+                  >
+                    Sign Up
+                  </Link>
+                </>
+              ) }
+               {user && (
+              <UserAccountNav />
+            )}
           </div>
         </div>
       </div>

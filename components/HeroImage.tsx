@@ -28,22 +28,26 @@ const HeroImage = () => {
              https://github.com/wolfgunblood/nextjs-saaskit
             </span>
 
-            {/* <br />
+            <br />
             <span className="animate-[code-3_10s_infinite]">
-              --scope=@phanatic
+              cp .env.example .env
             </span>{" "}
             <span className="animate-[code-4_10s_infinite]">
-              Successfully logged-in.
+              cp .env.loc .env.local
             </span>
             <br />
             <br />
             <span className="animate-[code-5_10s_infinite] text-gray-200">
-              npm publish
+              npm install
             </span>
             <br />
             <span className="animate-[code-6_10s_infinite]">
-              Package published.
-            </span> */}
+              npm run dev
+            </span>
+            <br />
+            <span className="animate-[code-6_10s_infinite]">
+              Start Shipping  🎉  🎉
+            </span>
           </div>
         </div>
       </div>

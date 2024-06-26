@@ -31,7 +31,8 @@ const HeroImage = () => {
             <br />
             <span className="animate-[code-3_10s_infinite]">
               cp .env.example .env
-            </span>{" "}
+            </span>
+            <br />
             <span className="animate-[code-4_10s_infinite]">
               cp .env.loc .env.local
             </span>

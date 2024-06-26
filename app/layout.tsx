@@ -12,8 +12,7 @@ export const metadata: Metadata = {
   title: "Next.js Saas Kit",
   description: "A Next.js starter kit with Lucia auth.",
 };
-
-// const runtime = 'edge'
+export const runtime = "edge";
 
 export default function RootLayout({
   children,

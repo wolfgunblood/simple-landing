@@ -1,4 +1,4 @@
-import { Bento } from "@/components/Bento";
+"use client"
 import CTA from "@/components/cta";
 import { FAQ } from "@/components/FAQs";
 import Features from "@/components/Features";

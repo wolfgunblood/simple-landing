@@ -15,6 +15,8 @@ import {
   TailwindCss,
   StripeLogo,
   ReactEmail,
+  StackAuth,
+  LemonSqueezy
 } from "./feature-icons";
 import CardGrid from "./hover-card";
 
@@ -32,23 +34,23 @@ const features = [
   {
     name: "Authentication",
     description:
-      "Credential authentication with password reset and email validation",
-    logo: LuciaAuth,
+      "Stack Auth - OAuth Authenication.Credential authentication with password reset and email validation",
+    logo: StackAuth,
   },
-  {
-    name: "Database",
-    description: "Drizzle with postgres database",
-    logo: Drizzle,
-  },
-  {
-    name: "TypeSafe Backend",
-    description: "Preserve type safety from backend to frontend with tRPC",
-    logo: TRPC,
-  },
+  // {
+  //   name: "Database",
+  //   description: "Drizzle with postgres database",
+  //   logo: Drizzle,
+  // },
+  // {
+  //   name: "TypeSafe Backend",
+  //   description: "Preserve type safety from backend to frontend with tRPC",
+  //   logo: TRPC,
+  // },
   {
     name: "Subscription",
-    description: "Subscription with stripe",
-    logo: StripeLogo,
+    description: "Subscription with Lemonsqueeezy",
+    logo: LemonSqueezy,
   },
   {
     name: "Tailwindcss",
@@ -60,11 +62,11 @@ const features = [
     description: "A set of beautifully designed UI components for React",
     logo: ShadcnUi,
   },
-  {
-    name: "React Email",
-    description: "Write emails in React with ease.",
-    logo: ReactEmail,
-  },
+  // {
+  //   name: "React Email",
+  //   description: "Write emails in React with ease.",
+  //   logo: ReactEmail,
+  // },
 ];
 
 const Features = () => {

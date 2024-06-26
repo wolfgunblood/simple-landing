@@ -35,7 +35,7 @@ const Hero = () => {
           </a>
         </Button>
         <Button size="lg" asChild>
-          <Link href="/handler/signup">Get Started</Link>
+          <Link href="https://demo.saaskit.one/">Demo</Link>
         </Button>
       </div>
     </section>

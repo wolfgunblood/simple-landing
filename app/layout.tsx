@@ -6,7 +6,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "simple",
+  title: "Next.js Saas Kit",
   description: "Open Source Next.js Boilerplate",
 };
 

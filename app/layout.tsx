@@ -13,6 +13,8 @@ export const metadata: Metadata = {
   description: "A Next.js starter kit with Lucia auth.",
 };
 
+const runtime = 'edge'
+
 export default function RootLayout({
   children,
 }: Readonly<{

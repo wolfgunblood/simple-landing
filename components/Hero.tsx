@@ -7,7 +7,7 @@ import { CopyToClipboard } from "./copy-to-clipboard";
 import { GitHubLogoIcon } from "@radix-ui/react-icons";
 
 const Hero = () => {
-  const githubUrl = "https://github.com/wolfgunblood/nextjs-saaskit"
+  const githubUrl = "https://github.com/wolfgunblood/nextjs-saaskit";
   return (
     <section className="relative mx-auto w-full max-w-screen-xl px-2.5 md:px-20 mt-10 flex flex-col items-center justify-center text-center sm:mt-12">
       <AnimatedGradient />
@@ -23,22 +23,21 @@ const Hero = () => {
       </p>
 
       <div className="my-10">
-            <div className="mx-auto max-w-fit">
-              <CopyToClipboard text={"git clone " + githubUrl} />
-            </div>
-          </div>
-          <div className="flex justify-center gap-4">
-            <Button size="lg" variant="outline" asChild>
-              <a href={githubUrl}>
-                <GitHubLogoIcon className="mr-1 h-5 w-5" />
-                GitHub
-              </a>
-            </Button>
-            <Button size="lg" asChild>
-              <Link href="/login">Get Started</Link>
-            </Button>
-          </div>
-       
+        <div className="mx-auto max-w-fit">
+          <CopyToClipboard text={"git clone " + githubUrl} />
+        </div>
+      </div>
+      <div className="flex justify-center gap-4">
+        <Button size="lg" variant="outline" asChild>
+          <a href={githubUrl}>
+            <GitHubLogoIcon className="mr-1 h-5 w-5" />
+            GitHub
+          </a>
+        </Button>
+        <Button size="lg" asChild>
+          <Link href="/handler/signup">Get Started</Link>
+        </Button>
+      </div>
     </section>
   );
 };

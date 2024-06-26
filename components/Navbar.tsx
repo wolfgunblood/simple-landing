@@ -38,7 +38,7 @@ const Navbar = () => {
                 size: "sm",
                 variant: "ghost",
               })}
-              href="https://github.com/wolfgunblood/simpleboilerplate"
+              href="https://github.com/wolfgunblood/nextjs-saaskit"
             >
               Github
             </Link>

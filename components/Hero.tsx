@@ -18,7 +18,7 @@ const Hero = () => {
 
       <p className="mt-5 max-w-prose text-base  text-gray-400">
         A Next.js Authentication starter template (password reset, email
-        validation and oAuth). Includes Stack, MongoDB, Lemon Squeezy,
+        validation and oAuth). Includes Stack Auth, MongoDB, Lemon Squeezy,
         tailwindcss and shadcn-ui{" "}
       </p>
 

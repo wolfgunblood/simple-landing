@@ -22,20 +22,14 @@ export function UserAccountNav() {
   const app = useStackApp();
   const user = app.useUser();
 
-  // Styling for the image to make it round
-  const imageStyle = {
-    width: "40px", // Set the width of the image
-    height: "40px", // Set the height of the image
-    borderRadius: "50%", // Make the image round
-    objectFit: "cover", // Cover the area without distorting the image
-  };
+  const defaultImageUrl = "https://avatars.dicebear.com/api/avataaars/avatar1.svg"; // Update this path to your default image
 
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
         {/* <Button variant="outline"> */}
         <img
-          src={user?.profileImageUrl}
+          src={user?.profileImageUrl || defaultImageUrl}
           alt="User Avatar"
           style={{
             width: "40px",

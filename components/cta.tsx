@@ -22,7 +22,7 @@ export default function CTA() {
 
           <div className="px-4 py-12 md:px-12 md:py-20">
             <h2 className="mb-6 border-y text-3xl font-bold text-gray-200 [border-image:linear-gradient(to_right,transparent,theme(colors.slate.700/.7),transparent)1] md:mb-12 md:text-4xl">
-              Create your next project with Simple
+              Create your next project with Next.js Saas kit
             </h2>
 
             <Link

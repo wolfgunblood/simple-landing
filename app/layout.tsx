@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Next.js Saas Kit",
-  description: "Open Source Next.js Boilerplate",
+  description: "A Next.js starter kit with Lucia auth.",
 };
 
 export default function RootLayout({

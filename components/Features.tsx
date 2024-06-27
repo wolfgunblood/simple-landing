@@ -37,11 +37,11 @@ const features = [
       "Stack Auth - OAuth Authenication.Credential authentication with password reset and email validation",
     logo: StackAuth,
   },
-  // {
-  //   name: "Database",
-  //   description: "Drizzle with postgres database",
-  //   logo: Drizzle,
-  // },
+  {
+    name: "Database",
+    description: "Drizzle with postgres database",
+    logo: Drizzle,
+  },
   // {
   //   name: "TypeSafe Backend",
   //   description: "Preserve type safety from backend to frontend with tRPC",

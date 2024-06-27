@@ -10,10 +10,10 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Next.js Saas Kit",
-  description: "A Next.js starter kit with Lucia auth.",
+  description: "A Next.js starter kit with Stack  auth.",
   openGraph: {
     title:  "Next.js Saas Kit",
-    description: "A Next.js starter kit with Lucia auth.",
+    description: "A Next.js starter kit with Stack auth.",
     url: "https://saaskit.one/",
     siteName: `Saaskit`,
     locale: "en_US",

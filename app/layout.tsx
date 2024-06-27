@@ -11,6 +11,15 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Next.js Saas Kit",
   description: "A Next.js starter kit with Lucia auth.",
+  openGraph: {
+    title:  "Next.js Saas Kit",
+    description: "A Next.js starter kit with Lucia auth.",
+    url: "https://saaskit.one/",
+    siteName: `Saaskit`,
+    locale: "en_US",
+    type: "website",
+    images: `https://utfs.io/f/25360b9b-32eb-46ba-ab3c-9d7e0247b11a-s7qyb6.png`
+  },
 };
 export const runtime = "edge";
 

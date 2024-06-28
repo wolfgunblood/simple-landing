@@ -39,7 +39,7 @@ const HeroImage = () => {
             <br />
             <br />
             <span className="animate-[code-5_10s_infinite] ">
-              npm install
+              pnpm install
             </span>
             <br />
             <span className="animate-[code-6_10s_infinite]">

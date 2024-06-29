@@ -31,9 +31,9 @@ export default function Footer({ border = false }: { border?: boolean }) {
                   Features
                 </Link>
               </li>
-             
-             
-             
+
+
+
             </ul>
           </div>
 
@@ -49,8 +49,8 @@ export default function Footer({ border = false }: { border?: boolean }) {
                   About us
                 </Link>
               </li>
-             
-              
+
+
             </ul>
           </div>
 
@@ -137,6 +137,16 @@ export default function Footer({ border = false }: { border?: boolean }) {
             </ul>
           </div>
         </div>
+      </div>
+
+      <div className="container relative mx-auto max-w-4xl py-5 text-center">
+        <p>
+          Created ❤️ by{' '}
+          <a href="https://x.com/jalajdu" target="_blank">
+            wolfgunblood
+          </a>{' '}
+          © {new Date().getFullYear()}
+        </p>
       </div>
 
     </footer>

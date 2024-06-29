@@ -20,6 +20,13 @@ export const metadata: Metadata = {
     type: "website",
     images: `https://utfs.io/f/25360b9b-32eb-46ba-ab3c-9d7e0247b11a-s7qyb6.png`
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "Next.js Saas Kit",
+    description: "A Next.js starter kit with Stack auth.",
+    images: "https://utfs.io/f/25360b9b-32eb-46ba-ab3c-9d7e0247b11a-s7qyb6.png",
+    site: "@jalajdu" // Replace with your actual Twitter handle
+  }
 };
 export const runtime = "edge";
 

@@ -1,9 +1,7 @@
 import Link from "next/link";
 import Logo from "./logo";
-import { useRouter } from "next/navigation";
 
 export default function Footer({ border = false }: { border?: boolean }) {
-  const router = useRouter()
   return (
     <footer>
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
@@ -94,9 +92,8 @@ export default function Footer({ border = false }: { border?: boolean }) {
               <li>
                 <Link
                   className="flex items-center justify-center text-blue-500 transition hover:text-blue-600"
-                  href="#0"
+                  href="https://x.com/jalajdu"
                   aria-label="Twitter"
-                  onClick={() => router.push("https://x.com/jalajdu")}
 
                 >
                   <svg
@@ -128,7 +125,6 @@ export default function Footer({ border = false }: { border?: boolean }) {
                   className="flex items-center justify-center text-blue-500 transition hover:text-blue-600"
                   href="https://github.com/wolfgunblood/nextjs-saaskit"
                   aria-label="Github"
-                  onClick={() => router.push("https://github.com/wolfgunblood")}
                   >
                   <svg
                     className="h-8 w-8 fill-current"

@@ -13,7 +13,8 @@ const Hero = () => {
       <AnimatedGradient />
 
       <h1 className="max-w-4xl text-5xl font-bold md:text-6xl lg:text-7xl">
-        Next.js SaaS Kit
+      Open Source Next.js SaaS kit to build a
+      scalable and production-ready SaaS
       </h1>
 
       <p className="mt-5 max-w-prose text-base  text-gray-400">

@@ -16,24 +16,24 @@ const HeroImage = () => {
           </div>
           <div className="font-mono text-gray-200 [&_span]:opacity-0">
             <span className="animate-[code-1_10s_infinite] ">
-              git clone
+              npx nextjs-saaskit
             </span>
-            {" "}
+            <br />
             <span className="animate-[code-2_10s_infinite] ">
             </span>
             <span
               className="animate-[code-2_10s_infinite] text-gray-500"
               style={{ whiteSpace: "pre-wrap", wordWrap: "break-word" }}
             >
-             https://github.com/wolfgunblood/nextjs-saaskit
+              cd projectName
             </span>
 
             <br />
-            <span className="animate-[code-3_10s_infinite]">
+            <span className="animate-[code-3_10s_infinite] text-gray-500">
               cp .env.example .env
             </span>
             <br />
-            <span className="animate-[code-4_10s_infinite]">
+            <span className="animate-[code-4_10s_infinite] text-gray-500">
               cp .env.loc .env.local
             </span>
             <br />

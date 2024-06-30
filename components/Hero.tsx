@@ -24,7 +24,7 @@ const Hero = () => {
 
       <div className="my-10">
         <div className="mx-auto max-w-fit">
-          <CopyToClipboard text={"git clone " + githubUrl} />
+          <CopyToClipboard text={"npx nextjs-saaskit"} />
         </div>
       </div>
       <div className="flex justify-center gap-4">

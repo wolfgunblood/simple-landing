@@ -37,7 +37,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <link rel="icon" type="image/svg+xml" href="/logo.svg" />
 
       <body className={inter.className}><StackProvider app={stackServerApp}><StackTheme>
         <ThemeProvider

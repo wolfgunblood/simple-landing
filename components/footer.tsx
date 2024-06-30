@@ -7,7 +7,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         {/* Top area: Blocks */}
         <div
-          className={`grid gap-10 py-8 sm:grid-cols-12 md:py-12 ${border ? "border-t [border-image:linear-gradient(to_right,transparent,theme(colors.slate.200),transparent)1]" : ""}`}
+          className={`grid gap-10 py-4 sm:grid-cols-12 md:py-8 ${border ? "border-t [border-image:linear-gradient(to_right,transparent,theme(colors.slate.200),transparent)1]" : ""}`}
         >
           {/* 1st block */}
           <div className="space-y-2 sm:col-span-12 lg:col-span-4">
@@ -15,8 +15,9 @@ export default function Footer({ border = false }: { border?: boolean }) {
               <Logo />
             </div>
             <div className="text-sm text-gray-600">
-              &copy; saaskit.one - All rights reserved.
+              saaskit.one - All rights reserved.
             </div>
+            <p className="text-sm text-gray-600">   &copy; {new Date().getFullYear()}</p>
           </div>
 
           {/* 2nd block */}
@@ -125,7 +126,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
                   className="flex items-center justify-center text-blue-500 transition hover:text-blue-600"
                   href="https://github.com/wolfgunblood/nextjs-saaskit"
                   aria-label="Github"
-                  >
+                >
                   <svg
                     className="h-8 w-8 fill-current"
                     viewBox="0 0 32 32"
@@ -140,14 +141,19 @@ export default function Footer({ border = false }: { border?: boolean }) {
         </div>
       </div>
 
-      <div className="container relative mx-auto max-w-4xl py-5 text-center">
+      <div className="container relative mx-auto max-w-6xl py-5 text-center">
         <p>
           Created ❤️ by{' '}
           <a href="https://x.com/jalajdu" target="_blank">
-            wolfgunblood
+            wolfgunblood.
           </a>{' '}
-          © {new Date().getFullYear()}
+     
+          If you liked the product say Hi{' '}
+          <a href="https://x.com/jalajdu" target="_blank">
+            X
+          </a>
         </p>
+      
       </div>
 
     </footer>

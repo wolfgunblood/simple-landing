@@ -12,12 +12,12 @@ const Hero = () => {
     <section className="relative mx-auto w-full max-w-screen-xl px-2.5 md:px-20 mt-10 flex flex-col items-center justify-center text-center sm:mt-12">
       <AnimatedGradient />
 
-      <h1 className="max-w-4xl text-5xl font-bold md:text-6xl lg:text-7xl">
+      <h1 className="max-w-4xl text-base font-bold md:text-2xl lg:text-4xl">
       Open Source Next.js SaaS kit to build a
       scalable and production-ready SaaS
       </h1>
 
-      <p className="mt-5 max-w-prose text-base  text-gray-400">
+      <p className="mt-5 max-w-prose text-xs md:text-sm  text-gray-400">
         A Next.js Authentication starter template (password reset, email
         validation and oAuth). Includes Auth, MongoDB, Lemon Squeezy,
         tailwindcss and shadcn-ui{" "}

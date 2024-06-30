@@ -13,12 +13,12 @@ const Hero = () => {
       <AnimatedGradient />
 
       <h1 className="max-w-4xl text-5xl font-bold md:text-6xl lg:text-7xl">
-        Next.js + Stack Auth Starter Kit
+        Next.js SaaS Kit
       </h1>
 
       <p className="mt-5 max-w-prose text-base  text-gray-400">
         A Next.js Authentication starter template (password reset, email
-        validation and oAuth). Includes Stack Auth, MongoDB, Lemon Squeezy,
+        validation and oAuth). Includes Auth, MongoDB, Lemon Squeezy,
         tailwindcss and shadcn-ui{" "}
       </p>
 

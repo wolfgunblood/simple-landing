@@ -18,14 +18,14 @@ export const metadata: Metadata = {
     siteName: `Saaskit`,
     locale: "en_US",
     type: "website",
-    images: ["/landing-page.png"],
+    images: "/landing-page.png",
     // images: `https://utfs.io/f/6065a913-376e-43a3-a59d-519c358e737f-8pkbvt.png`
   },
   twitter: {
     card: "summary_large_image",
     title: "Next.js Saas Kit",
     description: "A Next.js starter kit",
-    images: ["/landing-page.png"],
+    images: "/landing-page.png",
     // images: "https://utfs.io/f/6065a913-376e-43a3-a59d-519c358e737f-8pkbvt.png",
     site: "@jalajdu" // Replace with your actual Twitter handle
   }

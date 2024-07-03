@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   title: "Next.js Saas Kit",
   description: "A Next.js starter kit",
   openGraph: {
-    title:  "Next.js Saas Kit",
+    title: "Next.js Saas Kit",
     description: "A Next.js starter kit ",
     url: "https://saaskit.one/",
     siteName: `Saaskit`,
@@ -39,6 +39,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <link rel="icon" type="image/svg+xml" href="/logo.svg" />
 
       <body className={inter.className}><StackProvider app={stackServerApp}><StackTheme>
         <ThemeProvider

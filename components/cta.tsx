@@ -34,7 +34,7 @@ export default function CTA() {
                 }),
                 "text-base"
               )}
-              href={"/dashboard"}
+              href={"/"}
             >
               Get Started
             </Link>

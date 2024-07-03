@@ -62,11 +62,11 @@ const features = [
     description: "A set of beautifully designed UI components for React",
     logo: ShadcnUi,
   },
-  {
-    name: "Resend",
-    description: "Write emails in React with ease.",
-    logo: ReactEmail,
-  },
+  // {
+  //   name: "Resend",
+  //   description: "Write emails in React with ease.",
+  //   logo: ReactEmail,
+  // },
 ];
 
 const Features = () => {

@@ -16,7 +16,7 @@ const HeroImage = () => {
           </div>
           <div className="font-mono text-gray-200 [&_span]:opacity-0">
             <span className="animate-[code-1_10s_infinite] ">
-              npx nextjs-saaskit
+              npx nextjs-saaskit@latest
             </span>
             <br />
             <span className="animate-[code-2_10s_infinite] ">

@@ -146,12 +146,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
           Created ❤️ by{' '}
           <a href="https://x.com/jalajdu" target="_blank">
             wolfgunblood.
-          </a>{' '}
-     
-          If you liked the product say Hi{' '}
-          <a href="https://x.com/jalajdu" target="_blank">
-            X
-          </a>
+          </a>    
         </p>
       
       </div>

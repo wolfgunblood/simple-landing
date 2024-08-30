@@ -50,11 +50,7 @@ export default function RootLayout({
               enableSystem
               disableTransitionOnChange
             >
-              <script
-                defer
-                data-url="https://devhunt.org/tool/saaskit-"
-                src="https://cdn.jsdelivr.net/gh/sidiDev/devhunt-banner/indexV0.js"
-              />
+             
               {children}
               <Toaster />
             </ThemeProvider>

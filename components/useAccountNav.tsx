@@ -16,11 +16,10 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { useUser, useStackApp, UserButton } from "@stackframe/stack";
+import { useUser, UserButton } from "@stackframe/stack";
 
 export function UserAccountNav() {
-  const app = useStackApp();
-  const user = app.useUser();
+  const user = useUser();
 
   const defaultImageUrl =
     "https://api.dicebear.com/9.x/pixel-art/svg"; // Update this path to your default image

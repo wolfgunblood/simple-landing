@@ -1,4 +1,5 @@
 "use client"
+import Banner from "@/components/Banner";
 import CTA from "@/components/cta";
 import { FAQ } from "@/components/FAQs";
 import Features from "@/components/Features";
@@ -15,7 +16,8 @@ export const runtime = "edge";
 
 export default function Home() {
   return (
-      <>
+    <>
+      <Banner />
       <Navbar />
       <Hero />
       <HeroImage />
@@ -25,6 +27,6 @@ export default function Home() {
       {/* <Testimonial /> */}
       <CTA />
       <Footer />
-      </>
+    </>
   );
 }

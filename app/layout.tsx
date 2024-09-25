@@ -6,6 +6,7 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Toaster } from "@/components/ui/sonner";
 import Head from "next/head";
+import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -55,6 +56,8 @@ export default function RootLayout({
             </StackTheme>
           </StackProvider>
           <Toaster />
+          <Script src="https://scripts.simpleanalyticscdn.com/latest.js" />
+
         </ThemeProvider>
       </body>
     </html>

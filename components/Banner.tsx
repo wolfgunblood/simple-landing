@@ -42,14 +42,15 @@ export default function Banner() {
                         </p>
                     </div>
                     <div className="flex flex-col items-center gap-4">
-                        <Button
-                            size="lg"
-                            className="bg-white text-blue-600 hover:bg-white/90 hover:text-blue-700 transition-all duration-300 ease-in-out transform hover:scale-105"
-                            onClick={() => window.location.href = 'https://nextwrapper.com'}
+                        <a
+                            href="https://nextwrapper.com"
+                            target='_blank'
+                            className="inline-flex items-center px-6 py-3 text-lg bg-white text-blue-600 hover:bg-white/90 hover:text-blue-700 transition-all duration-300 ease-in-out transform hover:scale-105 rounded-lg"
                         >
                             Explore New Site
                             <ArrowRight className="ml-2 h-5 w-5" />
-                        </Button>
+                        </a>
+
                         {/* <p className="text-sm opacity-75">Join 10,000+ happy users</p> */}
                     </div>
                 </div>

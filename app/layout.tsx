@@ -29,6 +29,9 @@ export const metadata: Metadata = {
     images: "https://utfs.io/f/6065a913-376e-43a3-a59d-519c358e737f-8pkbvt.png",
     site: "@jalajdu", // Replace with your actual Twitter handle
   },
+  verification: {
+    google: "FovT39406gX49JZT0NTBhbnrJAL9a497m1nMcjLPzSw",
+  },
 };
 
 export const runtime = "edge";

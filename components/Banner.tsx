@@ -47,7 +47,7 @@ export default function Banner() {
                             target='_blank'
                             className="inline-flex items-center px-6 py-3 text-lg bg-white text-blue-600 hover:bg-white/90 hover:text-blue-700 transition-all duration-300 ease-in-out transform hover:scale-105 rounded-lg"
                         >
-                            Explore New Site
+                            Explore
                             <ArrowRight className="ml-2 h-5 w-5" />
                         </a>
 

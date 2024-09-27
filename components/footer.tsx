@@ -60,12 +60,9 @@ export default function Footer({ border = false }: { border?: boolean }) {
             <h3 className="text-sm font-medium">Resources</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link
-                  className="text-gray-600 transition"
-                  href="#0"
-                >
-                  Community
-                </Link>
+                <a href="https://nextwrapper.com" target="_blank">
+                  Next Wrapper{' '}
+                </a>
               </li>
               <li>
                 <Link
@@ -146,9 +143,9 @@ export default function Footer({ border = false }: { border?: boolean }) {
           Created ❤️ by{' '}
           <a href="https://x.com/jalajdu" target="_blank">
             wolfgunblood.
-          </a>    
+          </a>
         </p>
-      
+
       </div>
 
     </footer>

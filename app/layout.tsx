@@ -43,7 +43,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+      <head>
+        <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+        <Script src="https://scripts.simpleanalyticscdn.com/latest.js" />
+      </head>
 
       <body className={inter.className}>
         <ThemeProvider
@@ -59,7 +62,6 @@ export default function RootLayout({
             </StackTheme>
           </StackProvider>
           <Toaster />
-          <Script src="https://scripts.simpleanalyticscdn.com/latest.js" />
 
         </ThemeProvider>
       </body>

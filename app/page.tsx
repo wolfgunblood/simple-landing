@@ -17,7 +17,7 @@ export const runtime = "edge";
 export default function Home() {
   return (
     <>
-      <Banner />
+      {/* <Banner /> */}
       <Navbar />
       <Hero />
       <HeroImage />
